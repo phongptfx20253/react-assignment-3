@@ -1,0 +1,155 @@
+.cartContainer {
+  margin: 0 auto;
+  width: 1024px;
+  margin-bottom: 4rem;
+}
+
+.cartLeft {
+  padding-left: 0;
+  padding-right: 2rem;
+}
+
+.cartHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background-color: rgba(226, 226, 226, 0.3);
+}
+
+.cartHeaderLeft {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cartProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartProductImg {
+  width: 20rem;
+}
+
+.tableHeader {
+  background-color: rgba(226, 226, 226, 0.3);
+}
+
+.tableHeader th:first-child {
+  width: 7rem;
+}
+
+.tableCart thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  font-size: 0.9rem;
+  border-style: none;
+  text-align: center;
+}
+
+.tableCart > tbody {
+  vertical-align: middle;
+}
+
+.cartTotal {
+  padding: 2.5rem;
+  background-color: rgba(226, 226, 226, 0.3);
+  height: max-content;
+  text-align: left;
+}
+
+.cartTotal tr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cartTotal tr:first-child {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.cartTotal td:first-child {
+  padding-left: 0;
+  font-weight: 500;
+  text-align: left;
+}
+
+.cartTotal td:last-child {
+  text-align: right;
+}
+
+.inputCoupon {
+  width: 100%;
+  padding: 0.6rem 2rem;
+}
+
+.applyCoupon {
+  width: 100%;
+  padding: 0.6rem 2rem;
+}
+
+.giftIcon {
+  margin-right: 0.5rem;
+}
+
+.quantity {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.quantity span {
+  color: gray;
+}
+
+.prev {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+
+.next {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+
+.cartNavigate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(226, 226, 226, 0.3);
+  padding: 1rem 2rem;
+}
+
+.deleteBtn {
+  background-color: white;
+  border: none;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.gray {
+  color: gray;
+}
+
+.continueBtn {
+  border: none;
+  background-color: rgba(226, 226, 226, 0.3);
+}
+
+.totalPrice {
+  font-size: 1.1rem;
+}
+
+.productName {
+  font-size: 1rem;
+  font-weight: 500;
+}

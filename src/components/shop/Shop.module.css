@@ -1,0 +1,113 @@
+.catContainer {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.categories {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.categories h4 {
+  margin-bottom: 1.5rem;
+}
+
+.catProduct {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.catHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background-color: rgba(226, 226, 226, 0.3);
+}
+
+.catHeaderLeft {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.catList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  cursor: pointer;
+}
+
+.catContent {
+  padding-left: 1.5rem;
+}
+
+.catList span {
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+  background-color: rgba(226, 226, 226, 0.3);
+  color: rgb(53, 53, 53);
+}
+
+.catList span:first-child {
+  padding: 0.6rem 2rem;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+}
+
+.catList li {
+  padding: 0.6rem 2rem;
+  color: gray;
+}
+
+.catProductItem:hover {
+  opacity: 0.5;
+}
+
+.catLink,
+.catLink:hover,
+.catLink:active {
+  text-decoration: none;
+  color: black;
+}
+
+.catSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.catSearch input {
+  padding: 0.8rem 2rem;
+  border-color: rgba(128, 128, 128, 0.3);
+  width: 20rem;
+}
+
+.catSearch select {
+  width: 10rem;
+}
+
+.catPagination {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.catPagination button {
+  width: 3rem;
+  height: 3rem;
+  border-color: rgba(128, 128, 128, 0.3);
+  background-color: white;
+  margin-bottom: 1rem;
+}

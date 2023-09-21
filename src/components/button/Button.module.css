@@ -1,0 +1,10 @@
+.button {
+  background-color: rgb(34, 34, 34);
+  color: #c5c5c5;
+  font-style: italic;
+  font-size: 1.2rem;
+  width: max-content;
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  border: none;
+}

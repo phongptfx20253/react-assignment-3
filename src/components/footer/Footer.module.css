@@ -1,0 +1,30 @@
+.footer {
+  background-color: black;
+}
+
+.footerContainer {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.colFooter {
+  color: white;
+  margin: 1rem 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.colFooter h4 {
+  margin-bottom: 1rem;
+  color: white;
+  font-style: italic;
+}
+
+.colFooter a,
+.colFooter a:hover,
+.colFooter a:link {
+  text-decoration: none;
+  color: var(--color-gray);
+}

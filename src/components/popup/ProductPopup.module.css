@@ -1,0 +1,77 @@
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupContent {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 768px;
+}
+
+.closeButton {
+  float: right;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+.popupDetail {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productImg {
+  width: 100%;
+  height: 100%;
+}
+
+.productTitle {
+  padding: 0;
+  font-size: 1.4rem;
+}
+
+.productPrice {
+  padding: 0;
+  margin-bottom: 0.2rem;
+  font-weight: 500;
+  color: gray;
+}
+
+.productDescription {
+  padding: 0;
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+  color: gray;
+  line-height: 1.4rem;
+}
+
+.popupBtn {
+  width: max-content;
+  border: none;
+  padding: 0.3rem 2rem;
+  background-color: black;
+  color: rgb(199, 199, 199);
+  text-decoration: none;
+}
+
+.popupBtn:link,
+.popupBtn:visited,
+.popupBtn:hover {
+  color: rgb(199, 199, 199);
+  text-decoration: none;
+}
+
+.popupIcon {
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: black;
+  --color-secondary: rgb(182, 102, 5);
+  --color-gray: rgb(101, 100, 100);
+}
+
+body {
+  margin: 0 auto;
+  font-style: italic;
+}

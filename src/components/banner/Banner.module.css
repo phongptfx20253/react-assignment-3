@@ -1,0 +1,33 @@
+.banner {
+  max-width: 1024px;
+  padding: 0.8rem;
+  position: relative;
+  z-index: 0;
+}
+
+.bannerImg {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.description {
+  position: absolute;
+  font-style: italic;
+  width: 30%;
+  top: 30%;
+  left: 5rem;
+  z-index: 1;
+}
+
+.title {
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,94 @@
+.liveChat {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  background-color: white;
+  border-radius: 3rem;
+}
+
+.liveChatIcon {
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+}
+
+.liveChatWindow {
+  /* CSS cho màn hình chat */
+  position: fixed;
+  bottom: 10rem;
+  right: 5rem;
+}
+
+/* Cart Chat */
+.cardChat {
+  margin: 0;
+  padding: 0;
+  width: 30rem;
+  border-radius: 1.5rem;
+}
+
+.CardHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.customerChat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 1rem;
+}
+
+.customerChat span {
+  padding: 0.1rem 1rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.adminChat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+
+.adminChat div {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.adminChat span {
+  margin-left: 1rem;
+  padding: 0.1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  background-color: rgba(226, 226, 226, 0.3);
+  color: gray;
+  border-radius: 0.5rem;
+}
+
+.cardFooter {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.cardFooter input {
+  border: none;
+}
+
+.chatAppBtn {
+  border: none;
+}

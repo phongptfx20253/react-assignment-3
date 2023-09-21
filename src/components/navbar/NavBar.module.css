@@ -1,0 +1,77 @@
+.navContainer {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+}
+
+.navbarList a:link,
+.navbarList a:visited {
+  text-decoration: none;
+  margin: 1rem;
+  color: var(--color-primary);
+}
+
+.navbarList a:hover,
+.navbarList a.active {
+  color: var(--color-secondary);
+}
+.navLeft {
+  padding: 0;
+}
+
+.navCenter {
+  padding: 0;
+  text-align: center;
+}
+
+.navRight {
+  padding: 0;
+  text-align: right;
+}
+
+.cartBump {
+  width: max-content;
+  display: inline-block;
+}
+
+.navIcon {
+  color: gray;
+  margin-right: 0.5rem;
+}
+
+.logoutBtn {
+  margin-left: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  font-style: italic;
+}
+
+.faCaretDown {
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
+  color: gray;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
